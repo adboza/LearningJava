@@ -2,15 +2,37 @@ package Programming.devdojo.javacore.AclassesIntroduction.domain;
 
 public class Employees {
 
-
-    public String name;
-    public int age;
-    public double [] wage;
+    private String name;
+    private int age;
+    private double [] wage;
 
     public void printThing(){
-        System.out.println(this.name);
-        System.out.println(this.age);
-        System.out.println(this.wage);
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(wage);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double[] getWage() {
+        return wage;
+    }
+
+    public void setWage(double[] wage) {
+        this.wage = wage;
+    }
 }
