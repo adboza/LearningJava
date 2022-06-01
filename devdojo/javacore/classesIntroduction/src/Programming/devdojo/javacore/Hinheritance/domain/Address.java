@@ -4,6 +4,12 @@ public class Address {
     private String street;
     private String zipcode;
 
+
+
+    public void print(){
+        System.out.println(this.street+" "+this.zipcode);
+    }
+
     public Address(String street, String zipcode) {
         this.street = street;
         this.zipcode = zipcode;
