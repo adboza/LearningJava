@@ -20,6 +20,7 @@ public class Anime {
         this.name = name;
     }
     public Anime(){
+
         for (int episode : episodes) {
             System.out.print(episode + " ");
         }

@@ -2,7 +2,7 @@ package Programming.devdojo.javacore.Kenum.domain;
 
 public class Customer {
     public enum PaymentType{
-        DEBT, CREDIT;
+        DEBIT, CREDIT;
     }
     private String name;
     private CustomerType customerType;
